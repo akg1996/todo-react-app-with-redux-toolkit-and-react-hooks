@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "text": "Set wake up alarm",
+      "day": "Everyday at 10:30pm",
+      "complete": false,
+      "id": 1
+    },
+    {
+      "text": "Drink Luke warm water ",
+      "day": "Everyday after wake up",
+      "complete": false,
+      "id": 2
+    },
+    {
+      "text": "Morning Streatch",
+      "day": "Everyday at 8:45am",
+      "complete": true,
+      "id": 3
+    },
+    {
+      "text": "Login to office laptop",
+      "day": "Everyday at 9:30am",
+      "complete": false,
+      "id": 4
+    }
+  ]
+}
