@@ -64,7 +64,7 @@ USE OF REDUX TOOLKIT METHODS: createStore, createSlice, createAsyncThunk
 USE OF REACT REDUX HOOKS: useSelector, useDispatch
 USE OF REACT HOOKS: useEffect, useState, useCallback
 
-useSelector():
+### useSelector():
 
 - Allows you to extract data from the Redux store state, using a selector function.
 - The selector is approximately equivalent to the mapStateToProps argument to connect conceptually
@@ -73,7 +73,7 @@ useSelector():
 - When an action is dispatched, useSelector() will do a reference comparison of the previous selector result value and the current result value. If they are different, the component will be forced to re-render. If they are the same, the component will not re-render.
 - You may call useSelector() multiple times within a single function component. Each call to useSelector() creates an individual subscription to the Redux store
 
-mapState arg of connect:
+### mapState arg of 'connect' hook:
 
 - The first argument to a mapStateToProps function is the entire Redux store state (the same value returned by a call to store.getState()). Because of this, the first argument is traditionally just called state. (While you can give the argument any name you want, calling it store would be incorrect - it's the "state value", not the "store instance".)
 
